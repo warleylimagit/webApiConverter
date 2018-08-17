@@ -21,6 +21,7 @@ namespace webApi.Controllers
         [HttpGet("kilometro/{milha}")]
         public string GetKilometro(double milha)
         {
+            //Teste
             double resultado = milha/0.62137;
             return resultado.ToString();
         }
